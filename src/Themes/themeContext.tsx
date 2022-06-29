@@ -66,16 +66,8 @@ export const ThemeContextProvider = ({
   const val = useMemo(
     () => ({
       theme,
-
-      //   spacing,
-      //   tableBorder,
-      //   sidebarExpand,
       setTheme: handleThemeChange,
-      //   setSpacing: handleSpacingChange,
-      //   setTableBorder: handleTableBorderChange,
-      //   setSidebarExpand,
     }),
-    // [theme, mode, spacing, tableBorder, sidebarExpand]
     [theme]
   );
 
