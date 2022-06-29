@@ -1,6 +1,6 @@
 const themes = require("./src/Themes/index");
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}"],
+  content: ["{pages,src}/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   important: true, // important in prod is must be
   theme: ["dark"],
