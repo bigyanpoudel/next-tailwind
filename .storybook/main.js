@@ -4,7 +4,7 @@ module.exports = {
   stories: [
     "../stories/**/*.stories.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
-    "../../src/**/*.stories.@(js|jsx|ts|tsx)",
+    "../../ui/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
     "@storybook/addon-links",
@@ -14,10 +14,7 @@ module.exports = {
         backgrounds: false,
       },
     },
-    "@storybook/addon-essentials",
     "@storybook/addon-storysource",
-    "storybook-addon-themes",
-    "storybook-addon-themes",
     "storybook-addon-theme-changer",
     {
       name: "@storybook/addon-postcss",
@@ -42,8 +39,8 @@ module.exports = {
       resolve: {
         alias: [
           {
-            find: "src",
-            replacement: path.resolve(__dirname, "../../src"),
+            find: "ui",
+            replacement: path.resolve(__dirname, "../../../packages/ui/"),
           },
         ],
       },
