@@ -1,7 +1,8 @@
 export interface IButtonProps {
-  label: string
+  children: any;
+  className: string;
 }
 
-export const Button = ({ label }: IButtonProps) => (
-  <button className="btn btn-primary">{label}</button>
-)
+export const Button = ({ children, className = "" }: IButtonProps) => (
+  <button className={`btn ${className}`}>{children}</button>
+);

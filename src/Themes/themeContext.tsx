@@ -6,7 +6,6 @@ export interface ThemeContextProps {
   setTheme: (theme: string) => void;
 }
 
-export type SpacingOptions = "compact" | "comfort" | "relax";
 /**
  * Theme Context.
  */
