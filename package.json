@@ -7,11 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook":"start-storybook -p 6007",
-    "build-storybook":"build-storybook"
+    "storybook": "start-storybook -p 6007",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "antd": "^4.21.4",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"

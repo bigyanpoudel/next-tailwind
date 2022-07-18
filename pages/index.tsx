@@ -14,13 +14,13 @@ const Home: NextPage = () => {
       <main className="py-10 px-5 flex flex-col gap-10">
         <section>
           <div className="flex flex-row flex-wrap gap-10">
-            <Button className="btn-primary">Primary</Button>
-            <Button className="btn-secondary">Secondary</Button>
-            <Button className="btn-accent">Accent</Button>
-            <Button className="btn-ghost">Ghost</Button>
-            <Button className="btn-link">Link</Button>
-            <Button className="btn-success">Success</Button>
-            <Button className="btn-error">Success</Button>
+            <Button btnType="primary">Primary</Button>
+            <Button btnType="secondary">Secondary</Button>
+            <Button btnType="accent">Accent</Button>
+            <Button btnType="ghost">Ghost</Button>
+            <Button btnType="link">Link</Button>
+            <Button btnType="success">Success</Button>
+            <Button btnType="error">Error</Button>
           </div>
         </section>
       </main>
